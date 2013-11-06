@@ -66,6 +66,7 @@
     <Content Include="pages\home\home.html" />
     <Content Include="pages\home\home.js" />
     <Content Include="default.html" />
+    <Content Include="vendor\highlightjs\github.css" />
     <Content Include="vendor\reveal\.gitignore" />
     <Content Include="vendor\reveal\.travis.yml" />
     <Content Include="vendor\reveal\css\print\paper.css" />
