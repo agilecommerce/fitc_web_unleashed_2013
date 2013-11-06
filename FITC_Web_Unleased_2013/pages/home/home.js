@@ -26,6 +26,11 @@
 				//but that doesn't work in this case, since we are working with the equivalent of a single-page web app.
 				hljs.initHighlighting();
 			});
+
+			var appBar = document.getElementById("commandsAppBar").winControl;
+			appBar.getCommandById('cmdReset').addEventListener("click", function() {
+				Reveal.slide(0, 0);
+			}, false);
 		}
 	});
 })();
