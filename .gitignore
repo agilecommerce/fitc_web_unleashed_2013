@@ -2,3 +2,4 @@ bin/
 bld/
 *.suo
 *.jsproj.user
+Thumbs.db
