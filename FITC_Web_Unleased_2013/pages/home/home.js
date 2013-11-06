@@ -6,10 +6,13 @@
 		// populates the page elements with the app's data.
 		ready: function (element, options) {
 			Reveal.initialize({
+				height: '90%',
+				width: '90%',
 				controls: true,
 				progress: true,
 				history: true,
-				center: true,
+				center: false,
+				transition: 'linear',
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
